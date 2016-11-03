@@ -5,9 +5,9 @@ import random
 import re
 
 # init bot
-bot = telegram.Bot(token='273885113:AAHZkBtjHeoQw8a6-pWGgVL3jkVeBU5-2ok')
+bot = telegram.Bot(token='TOKEN')
 updates = bot.getUpdates()
-updater = Updater(token='273885113:AAHZkBtjHeoQw8a6-pWGgVL3jkVeBU5-2ok')
+updater = Updater(token='TOKEN')
 dispatcher = updater.dispatcher
 
 # utils
